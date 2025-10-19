@@ -3,33 +3,33 @@ import { Flame, Battery, Brain, Heart, Sparkles, TrendingUp } from "lucide-react
 const benefits = [
   {
     icon: Flame,
-    title: "Metabolismo Acelerado",
-    description: "Ativa as mitocôndrias para aumentar a queima de calorias naturalmente, mesmo em repouso.",
+    title: "Accelerated Metabolism",
+    description: "Activates mitochondria to naturally increase calorie burn, even at rest.",
   },
   {
     icon: Battery,
-    title: "Energia Duradoura",
-    description: "Produção otimizada de ATP proporciona energia sustentada durante todo o dia, sem picos ou quedas.",
+    title: "Lasting Energy",
+    description: "Optimized ATP production provides sustained energy throughout the day, without peaks or crashes.",
   },
   {
     icon: Brain,
-    title: "Clareza Mental",
-    description: "Melhora a função cognitiva e a concentração através da otimização energética cerebral.",
+    title: "Mental Clarity",
+    description: "Improves cognitive function and concentration through brain energy optimization.",
   },
   {
     icon: Heart,
-    title: "Saúde Celular",
-    description: "Protege e regenera as mitocôndrias, combatendo o envelhecimento celular prematuro.",
+    title: "Cellular Health",
+    description: "Protects and regenerates mitochondria, combating premature cellular aging.",
   },
   {
     icon: Sparkles,
-    title: "Antioxidante Potente",
-    description: "Ingredientes naturais que combatem radicais livres e reduzem inflamação crônica.",
+    title: "Powerful Antioxidant",
+    description: "Natural ingredients that fight free radicals and reduce chronic inflammation.",
   },
   {
     icon: TrendingUp,
-    title: "Resultados Consistentes",
-    description: "Fórmula baseada em estudos científicos com resultados comprovados em usuários reais.",
+    title: "Consistent Results",
+    description: "Formula based on scientific studies with proven results in real users.",
   },
 ];
 
@@ -39,12 +39,12 @@ export const Benefits = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            Por Que Mitolyn Funciona?
+            Why Does Mitolyn Work?
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-            Diferente de suplementos comuns, Mitolyn atua diretamente nas mitocôndrias — 
-            as "usinas de energia" das suas células. Quando elas funcionam melhor, 
-            você se sente melhor.
+            Unlike common supplements, Mitolyn acts directly on mitochondria — 
+            the "powerhouses" of your cells. When they function better, 
+            you feel better.
           </p>
         </div>
 
@@ -72,22 +72,22 @@ export const Benefits = () => {
 
         <div className="mt-16 max-w-4xl mx-auto bg-tertiary rounded-2xl p-8 md:p-12 text-center">
           <h3 className="text-2xl md:text-3xl font-bold mb-4 text-tertiary-foreground">
-            O Poder das Mitocôndrias
+            The Power of Mitochondria
           </h3>
           <p className="text-base md:text-lg text-tertiary-foreground/80 mb-6 leading-relaxed">
-            Cientistas descobriram que mitocôndrias saudáveis são a chave para um metabolismo 
-            eficiente, energia abundante e longevidade. Com a idade, estresse e má alimentação, 
-            sua função declina. <strong>Mitolyn reverte esse processo naturalmente.</strong>
+            Scientists have discovered that healthy mitochondria are the key to an efficient metabolism, 
+            abundant energy, and longevity. With age, stress, and poor diet, 
+            their function declines. <strong>Mitolyn naturally reverses this process.</strong>
           </p>
           <div className="flex flex-wrap gap-4 justify-center text-sm">
             <div className="bg-background/50 px-4 py-2 rounded-full">
-              ✓ Baseado em 30+ estudos clínicos
+              ✓ Based on 30+ clinical studies
             </div>
             <div className="bg-background/50 px-4 py-2 rounded-full">
-              ✓ Ingredientes naturais patenteados
+              ✓ Patented natural ingredients
             </div>
             <div className="bg-background/50 px-4 py-2 rounded-full">
-              ✓ Sem efeitos colaterais
+              ✓ No side effects
             </div>
           </div>
         </div>

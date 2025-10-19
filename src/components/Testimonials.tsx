@@ -3,36 +3,36 @@ import { Star } from "lucide-react";
 
 const testimonials = [
   {
-    name: "Maria Silva",
+    name: "Sarah Mitchell",
     age: 42,
-    location: "São Paulo, SP",
+    location: "Austin, TX",
     rating: 5,
-    text: "Perdi 8kg em 6 semanas sem dietas malucas. Minha energia voltou e não sinto mais aquela fadiga da tarde. Mitolyn realmente mudou minha vida!",
-    result: "-8kg em 6 semanas",
+    text: "Lost 17 lbs in 6 weeks without crazy diets. My energy is back and I no longer feel that afternoon fatigue. Mitolyn really changed my life!",
+    result: "-17 lbs in 6 weeks",
   },
   {
-    name: "Carlos Mendes",
+    name: "Michael Johnson",
     age: 55,
-    location: "Rio de Janeiro, RJ",
+    location: "Miami, FL",
     rating: 5,
-    text: "Estava cético no início, mas os resultados falam por si. Meu médico ficou impressionado com a melhora nos meus exames metabólicos. Recomendo!",
-    result: "Metabolismo normalizado",
+    text: "I was skeptical at first, but the results speak for themselves. My doctor was impressed with the improvement in my metabolic tests. Highly recommend!",
+    result: "Normalized metabolism",
   },
   {
-    name: "Ana Paula",
+    name: "Jennifer Garcia",
     age: 38,
-    location: "Belo Horizonte, MG",
+    location: "Phoenix, AZ",
     rating: 5,
-    text: "Finalmente encontrei algo que funciona de verdade. Não é mágica, mas com Mitolyn sinto que meu corpo está trabalhando a meu favor novamente.",
-    result: "-12kg em 3 meses",
+    text: "Finally found something that actually works. It's not magic, but with Mitolyn I feel like my body is working with me again.",
+    result: "-26 lbs in 3 months",
   },
   {
-    name: "Roberto Costa",
+    name: "David Thompson",
     age: 47,
-    location: "Curitiba, PR",
+    location: "Seattle, WA",
     rating: 5,
-    text: "A clareza mental que ganhei foi inesperada. Além de perder peso, estou mais focado no trabalho e durmo melhor. Vale cada centavo!",
-    result: "Energia +150%",
+    text: "The mental clarity I gained was unexpected. Besides losing weight, I'm more focused at work and sleep better. Worth every penny!",
+    result: "Energy +150%",
   },
 ];
 
@@ -42,11 +42,11 @@ export const Testimonials = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            Resultados Reais de Pessoas Reais
+            Real Results from Real People
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Milhares de pessoas já transformaram suas vidas com Mitolyn. 
-            Veja o que elas têm a dizer.
+            Thousands of people have already transformed their lives with Mitolyn. 
+            See what they have to say.
           </p>
         </div>
 
@@ -67,7 +67,7 @@ export const Testimonials = () => {
                 <div className="flex items-center justify-between pt-4 border-t border-border">
                   <div>
                     <p className="font-semibold text-foreground">
-                      {testimonial.name}, {testimonial.age} anos
+                      {testimonial.name}, {testimonial.age} years
                     </p>
                     <p className="text-sm text-muted-foreground">
                       {testimonial.location}
@@ -86,7 +86,7 @@ export const Testimonials = () => {
 
         <div className="mt-12 text-center">
           <p className="text-sm text-muted-foreground">
-            ⭐ Avaliação média: <strong className="text-foreground">4.8/5</strong> baseada em mais de 12.000 avaliações verificadas
+            ⭐ Average rating: <strong className="text-foreground">4.8/5</strong> based on over 12,000 verified reviews
           </p>
         </div>
       </div>

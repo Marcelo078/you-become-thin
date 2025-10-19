@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Zap } from "lucide-react";
-import productImage from "@/assets/mitolyn-bottle.png";
+import productImage from "@/assets/mitolyn.webp";
 
 export const Hero = () => {
   const handleCTAClick = () => {
@@ -17,18 +17,18 @@ export const Hero = () => {
           <div className="text-center lg:text-left space-y-6 animate-fade-in">
             <div className="inline-flex items-center gap-2 bg-primary/10 text-primary px-4 py-2 rounded-full text-sm font-semibold">
               <Zap className="w-4 h-4" />
-              <span>Poder Metabólico Revolucionário</span>
+              <span>Revolutionary Metabolic Power</span>
             </div>
             
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
-              Desbloqueie Seu{" "}
-              <span className="text-primary">Poder Metabólico</span>{" "}
-              com Mitolyn
+              Unlock Your{" "}
+              <span className="text-primary">Metabolic Power</span>{" "}
+              with Mitolyn
             </h1>
             
             <p className="text-lg md:text-xl text-muted-foreground max-w-2xl">
-              Fórmula cientificamente desenvolvida para otimizar a função mitocondrial, 
-              acelerar o metabolismo e restaurar sua energia natural.
+              Scientifically formulated to optimize mitochondrial function, 
+              accelerate metabolism, and restore your natural energy.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start pt-4">
@@ -38,7 +38,7 @@ export const Hero = () => {
                 onClick={handleCTAClick}
                 className="group"
               >
-                Ver Preços Especiais
+                See Special Pricing
                 <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" />
               </Button>
               <Button 
@@ -46,7 +46,7 @@ export const Hero = () => {
                 size="xl"
                 onClick={() => document.getElementById('benefits')?.scrollIntoView({ behavior: 'smooth' })}
               >
-                Saiba Mais
+                Learn More
               </Button>
             </div>
 
@@ -58,11 +58,11 @@ export const Hero = () => {
               </div>
               <div className="flex items-center gap-2">
                 <div className="w-10 h-10 rounded-full bg-success/10 text-success flex items-center justify-center font-bold">✓</div>
-                <span className="text-foreground">Garantia 90 Dias</span>
+                <span className="text-foreground">90-Day Guarantee</span>
               </div>
               <div className="flex items-center gap-2">
                 <div className="w-10 h-10 rounded-full bg-success/10 text-success flex items-center justify-center font-bold">✓</div>
-                <span className="text-foreground">Frete Grátis</span>
+                <span className="text-foreground">Free Shipping</span>
               </div>
             </div>
           </div>
@@ -73,7 +73,7 @@ export const Hero = () => {
               <div className="absolute inset-0 bg-primary/20 blur-3xl rounded-full"></div>
               <img 
                 src={productImage} 
-                alt="Frasco de Mitolyn - Suplemento para Otimização Metabólica" 
+                alt="Mitolyn Bottles - Metabolic Optimization Supplement" 
                 className="relative z-10 w-full max-w-md drop-shadow-2xl"
               />
             </div>

@@ -7,36 +7,36 @@ import {
 
 const faqs = [
   {
-    question: "Como o Mitolyn funciona exatamente?",
-    answer: "Mitolyn atua diretamente nas mitocôndrias, as estruturas celulares responsáveis pela produção de energia. Seus ingredientes naturais ajudam a otimizar a função mitocondrial, acelerando o metabolismo e aumentando a queima de calorias. Isso resulta em mais energia, melhor disposição e perda de peso natural.",
+    question: "How does Mitolyn work exactly?",
+    answer: "Mitolyn acts directly on mitochondria, the cellular structures responsible for energy production. Its natural ingredients help optimize mitochondrial function, accelerating metabolism and increasing calorie burn. This results in more energy, better vitality, and natural weight loss.",
   },
   {
-    question: "Quanto tempo leva para ver resultados?",
-    answer: "A maioria dos usuários relata sentir mais energia nas primeiras 1-2 semanas. Resultados visíveis de perda de peso geralmente aparecem após 3-4 semanas de uso consistente. Para resultados ótimos, recomendamos o uso contínuo por pelo menos 90 dias.",
+    question: "How long does it take to see results?",
+    answer: "Most users report feeling more energetic within the first 1-2 weeks. Visible weight loss results typically appear after 3-4 weeks of consistent use. For optimal results, we recommend continuous use for at least 90 days.",
   },
   {
-    question: "Mitolyn tem efeitos colaterais?",
-    answer: "Mitolyn é formulado com ingredientes 100% naturais e não contém estimulantes artificiais. A maioria das pessoas não experimenta efeitos colaterais. Porém, se você tem alguma condição médica ou está tomando medicamentos, recomendamos consultar seu médico antes de iniciar qualquer suplemento.",
+    question: "Does Mitolyn have side effects?",
+    answer: "Mitolyn is formulated with 100% natural ingredients and contains no artificial stimulants. Most people experience no side effects. However, if you have any medical conditions or are taking medications, we recommend consulting your doctor before starting any supplement.",
   },
   {
-    question: "Como devo tomar o Mitolyn?",
-    answer: "Recomendamos tomar 2 cápsulas por dia, preferencialmente pela manhã com um copo de água. Para melhores resultados, combine com uma alimentação equilibrada e atividade física regular. Cada frasco contém 60 cápsulas, suficiente para 30 dias.",
+    question: "How should I take Mitolyn?",
+    answer: "We recommend taking 2 capsules per day, preferably in the morning with a glass of water. For best results, combine with balanced nutrition and regular physical activity. Each bottle contains 60 capsules, sufficient for 30 days.",
   },
   {
-    question: "A garantia de 90 dias funciona mesmo?",
-    answer: "Sim! Estamos tão confiantes nos resultados que oferecemos uma garantia de satisfação total de 90 dias. Se por qualquer motivo você não estiver satisfeito, basta entrar em contato e faremos o reembolso completo, sem perguntas.",
+    question: "Does the 90-day guarantee really work?",
+    answer: "Yes! We're so confident in the results that we offer a full 90-day satisfaction guarantee. If for any reason you're not satisfied, simply contact us and we'll provide a complete refund, no questions asked.",
   },
   {
-    question: "Mitolyn é adequado para todas as idades?",
-    answer: "Mitolyn é formulado para adultos acima de 18 anos. É especialmente eficaz para pessoas acima de 35 anos, quando a função mitocondrial naturalmente começa a declinar. Não recomendamos para gestantes, lactantes ou menores de 18 anos.",
+    question: "Is Mitolyn suitable for all ages?",
+    answer: "Mitolyn is formulated for adults over 18 years old. It's especially effective for people over 35, when mitochondrial function naturally begins to decline. We do not recommend it for pregnant women, nursing mothers, or anyone under 18.",
   },
   {
-    question: "Preciso fazer dieta restritiva?",
-    answer: "Não é necessário fazer dietas extremas. Mitolyn trabalha otimizando seu metabolismo, mas uma alimentação balanceada potencializa os resultados. Muitos usuários relatam perda de peso mesmo mantendo uma dieta normal e saudável.",
+    question: "Do I need to follow a restrictive diet?",
+    answer: "You don't need to follow extreme diets. Mitolyn works by optimizing your metabolism, but balanced nutrition enhances the results. Many users report weight loss even while maintaining a normal, healthy diet.",
   },
   {
-    question: "Quanto tempo dura o frete?",
-    answer: "O frete é grátis para todo o Brasil e geralmente leva de 5 a 10 dias úteis. Após a confirmação do pagamento, você receberá um código de rastreamento para acompanhar sua encomenda.",
+    question: "How long does shipping take?",
+    answer: "Shipping is free nationwide and typically takes 5 to 10 business days. After payment confirmation, you'll receive a tracking code to follow your order.",
   },
 ];
 
@@ -46,11 +46,11 @@ export const FAQ = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            Perguntas Frequentes
+            Frequently Asked Questions
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Tudo o que você precisa saber sobre Mitolyn. 
-            Não encontrou sua dúvida? Entre em contato conosco.
+            Everything you need to know about Mitolyn. 
+            Didn't find your question? Contact us.
           </p>
         </div>
 
